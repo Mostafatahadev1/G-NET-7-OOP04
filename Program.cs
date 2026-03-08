@@ -16,7 +16,7 @@
             // Happens at runtime. The method call is resolved during program execution
             // depending on the actual object type.
 
-            #endregion
+            #endregion // 
 
             #region Question 2
             //Q2: What is the difference between method overloading and method overriding?
@@ -51,6 +51,39 @@
             // Used in the derived class to call the original method implementation
             // from the base class.
             #endregion
+
+            // انا عملت اول تلات كوميت علشان حصل مشكله في ال first repo 
+
+            #region Part 2 
+           //Cinema cinema = new Cinema();
+           //
+           //cinema.Open();
+           //
+           //StandardTicket t1 = new StandardTicket("Inception", new Seat('A', 5));
+           //t1.SetPrice(150);
+           //
+           //VIPTicket t2 = new VIPTicket("Avengers", true, 50);
+           //t2.SetPrice(200);
+           //
+           //IMAXTicket t3 = new IMAXTicket("Dune", true);
+           //t3.SetPrice(100, 1.8m);
+           //
+           //Console.WriteLine("\n========= SetPrice Test =========");
+           //Console.WriteLine("Setting price directly: 150");
+           //Console.WriteLine("Setting price with multiplier: 100 × 1.5 = 150\n");
+           //
+           //cinema.AddTicket(t1);
+           //cinema.AddTicket(t2);
+           //cinema.AddTicket(t3);
+           //
+           //Console.WriteLine("========= All Tickets =========");
+           //cinema.PrintAllTickets();
+           //
+           //Cinema.ProcessTicket(t2);
+           //
+           //cinema.Close();
+        
+        #endregion
 
         }
     }
